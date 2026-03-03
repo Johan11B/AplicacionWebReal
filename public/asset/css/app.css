@@ -1,0 +1,236 @@
+/* Estilos Generales */
+* {
+    box-sizing: border-box; 
+}
+
+/*----------ESTILOS PARA LOGIN---------*/
+.alert {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+}
+
+#pagina-login {
+    background-color: rgb(255, 255, 255);
+}
+#pagina-login .row{
+    min-height: 100vh;
+}
+#footer-login{
+    padding: 20px;
+    position: relative;
+    background-color: blue;
+    text-align: center;
+    color:#ffffff;
+    margin-top: -60px;
+}
+
+#fondo-login {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover; 
+}
+
+#logo-login {
+    background-color: #ffffff;
+    width: 50%;
+    margin: auto;    
+    display: block;
+}
+
+#pagina-login .col-5 {
+    padding: 3rem;
+}
+
+#pagina-login h1 {
+    color: blue;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#pagina-login input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+#pagina-login label {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 0.5rem;
+}
+
+#pagina-login .btn {
+    background-color: blue;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: none;
+    margin-top: 1rem;
+}
+
+#pagina-login .btn:hover {
+    background-color: #eebe44; 
+    color: #1a2c56;
+
+}
+
+#pagina-login a {
+    display: block;
+    text-align: center;
+    margin-top: 1.5rem;
+    color: #000000;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.contenedor-compacto {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+
+#pagina-register .card{
+    background-color: rgba(255, 255, 255, 0.782);
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.3); 
+    margin: auto; 
+}
+#pagina-register {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/fondoR.webp'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#pagina-register h1 {
+    color: blue; 
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+#logo-register {
+    max-width: 110px;
+    object-fit: cover; 
+    background-color: rgba(255, 255, 255, 0);
+    margin:auto;
+    display: block;
+}
+
+#pagina-register input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+#pagina-register label {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 0.5rem;
+}
+
+#botonR {
+    background-color: blue;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: none;
+    margin-top: 1rem;
+}
+
+#pagina-register .btn:hover {
+    background-color: #eebe44; 
+    color: #1a2c56;
+
+}
+
+#pagina-register a {
+    display: block;
+    text-align: center;
+    margin-top: 1.5rem;
+    color: #000000;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+#pagina-dashboard {
+    padding-bottom: 20px;
+}
+
+#pagina-dashboard .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.782);
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+    margin: auto; 
+}
+
+#pagina-dashboard .card:hover {
+    transform: translateY(-10px);
+    border: 3px solid #eebe44 !important; 
+}
+
+#pagina-dashboard a{
+    background-color: blue; 
+    color: #ffffff;            
+    padding: 8px 18px;
+    border-radius: 50px;       
+    text-decoration: none;     
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: 1px solid #f5c2c7;
+}
+
+#pagina-dashboard a:hover {
+    background-color: #eebe44; 
+    color: #ffffff;           
+    transform: scale(1.05);    
+    box-shadow: 0 4px 10px rgba(132, 32, 41, 0.2);
+}
+
+.banner-madrid {
+    background: linear-gradient(rgba(26, 44, 86, 0.8), rgba(26, 44, 86, 0.8)), url('../images/internacional.webp');
+    background-size: cover;
+    background-position: center;
+    min-height: 150px;
+}
+
+#pagina-dashboard h1{
+    color: #000000; 
+    font-size: 50px;
+    font-weight: 850;
+    margin-bottom: 0;
+    letter-spacing: -1px; 
+    text-transform: uppercase;
+}
+
+#pagina-dashboard p{
+    color: #eebe44;
+    font-weight: 700;
+    font-size: 25px;
+    position: relative;
+}

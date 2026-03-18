@@ -22,7 +22,7 @@
                       Real Madrid Club de Fútbol
                   </h1>
                   <div class="auth-buttons me-3">
-                        @guest
+                        @guest 
                           <a class="btn text-primary btn-light me-2 btn-light" href="{{ route('login') }}">Iniciar Sesión</a>
                           <a class="btn btn-light text-primary" href="{{ route('register') }}">Registrarse</a>
                         @endguest

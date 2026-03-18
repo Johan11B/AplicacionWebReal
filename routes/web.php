@@ -51,6 +51,13 @@ Route::get('/dashboard', function(){
 })->middleware('auth')->name('dashboard.index');
 
 
+use App\Http\Controllers\PostController;
+//-------Rutas protegidas con middleware auth---------//
+Route::middleware('auth')->group(function () {
+    Route::resource('posts', PostController::class);
+});
+
+
 
 //-----------Ruta para el formulario con seguridad CSRF------------//
 use Illuminate\Http\Request;

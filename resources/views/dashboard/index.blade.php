@@ -8,6 +8,9 @@
                     <p>Bienvenido, {{ auth()->user()->name?? 'Usuario'}}</p>
                 </div>
                 <div>
+                    <a href="{{ route('posts.index') }}" class="btn btn-warning">
+                        Gestionar Posts
+                    </a>
                     <a href="{{ route('logout') }}"
                         onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                         Cerrar Sesión

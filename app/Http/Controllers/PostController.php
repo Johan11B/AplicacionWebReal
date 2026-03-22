@@ -9,7 +9,7 @@ use App\Models\Post;
 class PostController extends Controller
 {
     use AuthorizesRequests;
-    public function index()
+    public function index() 
     {
         $posts = auth()->user()->posts()->latest()->paginate(10);
         return view('posts.index', compact('posts'));

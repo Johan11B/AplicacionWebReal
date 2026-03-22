@@ -8,6 +8,11 @@ Route::get('/', function () {
     return view('inicio');
 });
 
+// Route::get('/', function(){
+//     $posts = Post::latest()->take(5)->get();
+//     return view('inicio', compact('post'));
+// });
+
 Route::get('/historia', function () {
     return view('historia');
 });

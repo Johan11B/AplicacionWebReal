@@ -23,9 +23,7 @@
                             <a class="btn-logout mt-2" href="{{ route('logout') }}"  onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                                 Cerrar Sesión
                             </a>
-                            <form id="logout-form" action="{{ route('logout') }}" method="post" class="d-none">
-                                @csrf
-                            </form>
+                            
                         </li>
                     </ul>
                 </div>
